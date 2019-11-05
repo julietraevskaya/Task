@@ -1,0 +1,6 @@
+*.sln
+/Debug/*
+/ConsoleApplication3/*
+!/ConsoleApplication3/*.cpp
+/.vs/*file
+ConsoleApplication3.vcxproj
