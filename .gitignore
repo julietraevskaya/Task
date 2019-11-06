@@ -1,5 +1,2 @@
-*.sln
-/Debug/
-/calcucator/*
-!/calcucator/*.cpp
-/.vs/
+/src/
+!/src/*.ccs
