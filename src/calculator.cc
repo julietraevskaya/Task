@@ -4,18 +4,16 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-	int j = 1;
 	int sum = 0;
 	if (argc > 1)
 	{
-		for(int i = 0; i <= argc; i++)
+		for(int i = 0; i < argc; i++)
 		{
-			if (argv[j] == "+")
-				++argv[j];
+			if (argv[i] == "+")
+				i++;
 			else
 			{
-				sum = sum + atoi(argv[j]);
-				++argv[j];
+				sum = sum + atoi(argv[i]);
 			}
 			
 		}
